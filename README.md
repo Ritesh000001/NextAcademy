@@ -136,8 +136,7 @@ Students can view videos seamlessly.
 | **Frontend**   | React.js, Tailwind CSS, Vite   |
 | **Backend**    | Node.js, Express.js            |
 | **Database**   | MongoDB                        |
-| **Storage**    | Firebase Storage               |
-| **AI Chatbot** | Custom AI Integration          |
+| **Storage**    | Streamable Storage             |
 | **Deployment** | Local / Cloud Deployment Ready |
 
 
