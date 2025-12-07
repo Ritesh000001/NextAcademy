@@ -22,6 +22,7 @@
 <div align="center">
 
 ![Homepage](https://via.placeholder.com/700x350.png?text=NextAcademy+Homepage)
+
 ![Courses Page](https://via.placeholder.com/700x350.png?text=Courses+Page)
 
 </div>
@@ -50,25 +51,13 @@
 ---
 
 ### 🎥 3. Video Integration
-- Upload and display videos using **Firebase Storage**.
+- Upload and display videos using **Streamable Storage**.
 - Video URLs are stored in MongoDB for seamless access.
 - Supports multiple videos for courses.
 
 <div align="center">
 
 ![Video Page](https://via.placeholder.com/700x350.png?text=Video+Integration)
-
-</div>
-
----
-
-### 🤖 4. AI Chatbot
-- Interactive AI assistant to help users with learning queries.
-- Provides guidance and answers in real time.
-
-<div align="center">
-
-![Chatbot](https://via.placeholder.com/700x350.png?text=AI+Chatbot)
 
 </div>
 
@@ -88,26 +77,104 @@
 ```bash
 git clone https://github.com/yourusername/NextAcademy.git
 cd NextAcademy
+```
+2. **Install backend dependencies**
+```bash
+cd backend
+npm install
+```
+3. **Install frontend dependencies**
+```bash
+cd ../frontend
+npm install
+```
+4. **Run the project**
+```bash
+# Backend
+cd backend
+npm start
+
+# Frontend
+cd ../frontend
+npm run dev
+```
+5. Open your browser at http://localhost:5173 (or the port shown in terminal).
 
 
+## 🔧 Environment Variables
+
+Create a .env file in the backend folder and add:
+```bash
+MONGO_URI=your_mongodb_connection_string
+PORT=your_port_no.
+SECRET_KEY=your_secret_key
+```
 
 
-📌 How It Works
+---
 
-User Authentication
+## 📌 How It Works
 
+1. **User Authentication**
 Users can register and login securely.
 
-Browse Courses & Books
-
+2. **Browse Courses & Books**
 Explore courses and read books.
 
-Upload & Watch Videos
-
-Teachers can upload videos via Firebase Storage.
-
+3. **Upload & Watch Videos**
+Admin can upload videos via Streamable Storage.
 Students can view videos seamlessly.
 
-AI Chatbot Interaction
 
-Ask questions and get AI-driven responses.
+---
+
+
+## ⚙️ Technology Stack
+
+| Component      | Technology                     |
+| -------------- | ------------------------------ |
+| **Frontend**   | React.js, Tailwind CSS, Vite   |
+| **Backend**    | Node.js, Express.js            |
+| **Database**   | MongoDB                        |
+| **Storage**    | Firebase Storage               |
+| **AI Chatbot** | Custom AI Integration          |
+| **Deployment** | Local / Cloud Deployment Ready |
+
+
+---
+
+## 🔮 Future Enhancements
+
+We're constantly working to improve NextAcademy. Here's what's on the roadmap:
+
+- [ ] 👨‍💻 **Online Test** – Practice test to check your learnings
+- [ ] 📱 **Mobile Companion App** – Cross-platform support
+- [ ] 🌙 **Dark Mode** – Eye-friendly interface
+- [ ] 🎁 **Reward Points** – Points to encourage students
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE)  file for details.
+
+--- 
+
+## 📞 Contact & Support
+
+Found a bug? Have a suggestion? We'd love to hear from you!
+
+- 🐛 [Report Issues](https://github.com/Ritesh000001/NextAcademy/issues)
+- 💡 [Request Features](https://github.com/Ritesh000001/NextAcademy/issues/new)
+- ⭐ [Star this Repository](https://github.com/Ritesh000001/NextAcademy)
+
+---
+
+ <div align="center">
+
+**If you find NextAcademy helpful, please consider giving it a ⭐!**
+
+Made with ❤️ by Ritesh Singh Kushwaha
+
+</div>
+
